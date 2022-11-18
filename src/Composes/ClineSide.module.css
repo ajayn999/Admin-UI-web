@@ -1,0 +1,27 @@
+.selected {
+    background: hsl(0, 4%, 81%);
+}
+
+.selected input {
+    background: hsl(0, 71%, 96%);
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+}
+
+.icons {
+    color: rgb(228, 83, 114);
+}
+
+.icons * {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.readOnly {
+    border: none;
+    width: 92%;
+    text-overflow: ellipsis;
+}
